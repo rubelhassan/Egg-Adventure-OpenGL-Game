@@ -1,0 +1,91 @@
+﻿Build started 12/12/2015 9:57:31 PM.
+     1>Project "E:\GiveMeSpace\OpenGL\AIUB\EggAdventureProject\freetype\builds\windows\vc2010\freetype.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /MP /Ox /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Za /Zc:wchar_t /Zc:forScope /GR- /Fo".\..\..\..\objs\vc2010\Win32\Release Multithreaded\\" /Gd /TC /wd4001 /analyze- /errorReport:prompt ..\..\..\src\autofit\autofit.c ..\..\..\src\base\ftbitmap.c ..\..\..\src\base\ftfstype.c ..\..\..\src\base\ftgasp.c ..\..\..\src\base\ftstroke.c ..\..\..\src\base\ftbbox.c ..\..\..\src\base\ftpfr.c ..\..\..\src\base\ftsynth.c ..\..\..\src\base\fttype1.c ..\..\..\src\base\ftwinfnt.c ..\..\..\src\base\ftxf86.c ..\..\..\src\base\ftlcdfil.c ..\..\..\src\base\ftgxval.c ..\..\..\src\base\ftotval.c ..\..\..\src\base\ftpatent.c
+         autofit.c
+         ftbitmap.c
+         ftfstype.c
+         ftgasp.c
+         ftstroke.c
+         ftbbox.c
+         ftpfr.c
+         ftsynth.c
+         fttype1.c
+         ftwinfnt.c
+         ftxf86.c
+         ftlcdfil.c
+         ftgxval.c
+         ftotval.c
+         ftpatent.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /MP /O2 /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Za /Zc:wchar_t /Zc:forScope /GR- /Fo".\..\..\..\objs\vc2010\Win32\Release Multithreaded\\" /Gd /TC /wd4001 /analyze- /errorReport:prompt ..\..\..\src\bdf\bdf.c ..\..\..\src\cff\cff.c ..\..\..\src\base\ftbase.c ..\..\..\src\cache\ftcache.c ..\..\..\src\base\ftglyph.c ..\..\..\src\gzip\ftgzip.c ..\..\..\src\base\ftinit.c ..\..\..\src\lzw\ftlzw.c ..\..\..\src\base\ftsystem.c ..\..\..\src\smooth\smooth.c ..\..\..\src\base\ftmm.c ..\..\..\src\pcf\pcf.c ..\..\..\src\pfr\pfr.c ..\..\..\src\psaux\psaux.c ..\..\..\src\pshinter\pshinter.c ..\..\..\src\psnames\psmodule.c ..\..\..\src\raster\raster.c ..\..\..\src\sfnt\sfnt.c ..\..\..\src\truetype\truetype.c ..\..\..\src\type1\type1.c ..\..\..\src\cid\type1cid.c ..\..\..\src\type42\type42.c ..\..\..\src\winfonts\winfnt.c
+         bdf.c
+         cff.c
+         ftbase.c
+         ftcache.c
+         ftglyph.c
+         ftgzip.c
+         ftinit.c
+         ftlzw.c
+         ftsystem.c
+         smooth.c
+         ftmm.c
+         pcf.c
+         pfr.c
+         psaux.c
+         pshinter.c
+         psmodule.c
+         raster.c
+         sfnt.c
+         truetype.c
+         type1.c
+         type1cid.c
+         type42.c
+         winfnt.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /MP /O2 /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /GR- /Fo".\..\..\..\objs\vc2010\Win32\Release Multithreaded\\" /Gd /TC /wd4001 /analyze- /errorReport:prompt ..\ftdebug.c
+         ftdebug.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\..\..\..\objs\vc2010\Win32\freetype255MT.lib" /NOLOGO /MACHINE:X86 /LTCG ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\autofit.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\bdf.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\cff.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftbase.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftbitmap.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftcache.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftdebug.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftfstype.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftgasp.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftglyph.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftgzip.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftinit.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftlzw.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftstroke.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftsystem.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\smooth.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftbbox.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftmm.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftpfr.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftsynth.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\fttype1.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftwinfnt.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftxf86.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftlcdfil.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftgxval.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftotval.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\ftpatent.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\pcf.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\pfr.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\psaux.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\pshinter.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\psmodule.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\raster.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\sfnt.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\truetype.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\type1.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\type1cid.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\type42.obj"
+         ".\..\..\..\objs\vc2010\Win32\Release Multithreaded\winfnt.obj"
+         freetype.vcxproj -> E:\GiveMeSpace\OpenGL\AIUB\EggAdventureProject\freetype\builds\windows\vc2010\.\..\..\..\objs\vc2010\Win32\freetype255MT.lib
+     1>Done Building Project "E:\GiveMeSpace\OpenGL\AIUB\EggAdventureProject\freetype\builds\windows\vc2010\freetype.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.93

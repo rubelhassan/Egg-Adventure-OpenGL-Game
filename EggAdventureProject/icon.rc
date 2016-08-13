@@ -1,0 +1,26 @@
+id ICON "icon.ico"
+GLFW_ICON ICON "icon.ico"
+1 VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080904E4"
+    BEGIN
+      VALUE "CompanyName", "Rubel Hassa"
+      VALUE "FileDescription", "An OpenGL Game"
+      VALUE "FileVersion", "1.0"
+      VALUE "InternalName", "Egg_Adventure"
+      VALUE "LegalCopyright", "Rubel Hassan"
+      VALUE "OriginalFilename", "EggAdventureProject.exe"
+      VALUE "ProductName", "Egg Adventure"
+      VALUE "ProductVersion", "1.0"
+    END
+  END
+
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x809, 1252
+  END
+END

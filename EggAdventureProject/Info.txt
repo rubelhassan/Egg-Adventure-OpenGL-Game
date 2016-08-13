@@ -1,0 +1,10 @@
+This is a 2D OpenGL Game developed as a Computer Graphics project at Fall 2015-16, AIUB.
+
+Technologies used: Object Oriented C++, OpenGL, GLFW, SOIL, FREETYPE.
+
+Codes is not for any copy or commercial use without permission of authors.
+
+Developed By: Rubel Hassan Mollik & Ariful Hasan
+
+email: rubelhassan@outlook.com
+

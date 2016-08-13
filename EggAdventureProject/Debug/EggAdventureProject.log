@@ -1,0 +1,30 @@
+﻿Build started 8/13/2016 6:08:13 PM.
+     1>Project "D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\EggAdventureProject\EggAdventureProject.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (EggAdventureProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\/include/" /I"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\/freetype/include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Window.cpp
+         Window.cpp
+     1>d:\_code_space\old data\opengl\aiub\eggadventureproject\eggadventureproject\window.cpp(325): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\_code_space\old data\opengl\aiub\eggadventureproject\eggadventureproject\window.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>d:\_code_space\old data\opengl\aiub\eggadventureproject\eggadventureproject\window.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\EggAdventureOenglGame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\/lib/" /LIBPATH:"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\/freetype/objs/vc2010/Win32" glew32.lib glut32.lib glfw3.lib SOIL.lib freetype255.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\EggAdventureOenglGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\EggAdventureOenglGame.lib" /MACHINE:X86 Debug\icon.res
+         Debug\Egg.obj
+         Debug\Font.obj
+         Debug\main.obj
+         Debug\Bird.obj
+         Debug\Player.obj
+         Debug\Sprite.obj
+         Debug\Vector2.obj
+         Debug\Window.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\vc120.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\vc120.pdb'; linking object as if no debug info
+         EggAdventureProject.vcxproj -> D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\Debug\EggAdventureOenglGame.exe
+     1>Done Building Project "D:\_Code_Space\Old Data\OpenGL\AIUB\EggAdventureProject\EggAdventureProject\EggAdventureProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10
